@@ -1,0 +1,287 @@
+body{
+    margin:0;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.basic{
+    background-image: url(../pictures/thepaintstore2.jpg);
+    height:auto;
+    background-attachment:fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size:cover;
+}
+.page-title{
+    background:rgba(0,0,0,0.5);
+    text-align:center;
+    color: ghostwhite;
+    padding: 75px;
+    font-variant: small-caps;
+    font-size: 100px;
+    font-family: fantasy;
+    letter-spacing: 20px;
+    margin-top: 30px;
+}
+.navbar{
+    display:flex;
+    align-items: center;
+    background:lightskyblue
+}
+nav{
+    flex:1;
+    text-align: right;
+}
+nav ul{
+    margin: 0;
+    padding:0;
+    list-style: none;
+    background:lightskyblue;
+    text-align:right;
+    left: 0;
+}
+nav > ul > li{
+    font-size: 20px;
+    list-style: none;
+    padding: 30px 30px 30px 30px;
+    text-align: right;
+    display: inline-block;
+    float:inline-end;
+    position: relative;
+}
+nav ul ul{
+    position: absolute;
+    padding: 10px 20px 10px 20px;
+    width:max-content;
+    display: none;
+    top: 100%;
+    right: 0;
+}
+nav ul li:hover > ul{
+    display: block;
+}
+.a-nav{
+    text-decoration: none;
+    color:white;
+    display: block;
+}
+nav ul li:hover{
+    background:#8a8a8a;
+    transform: scale(1.1);
+}
+.container{
+    margin: 0px 50px 50px 5%;
+    width:90%;
+    text-align:center;
+    color: #16817a;
+}
+.categories{
+    width:max-content;
+    margin:25px;
+    border:1px solid#184d47;
+    border-radius: 0 0 50px 50px;
+    display:inline-block;
+}
+.categories:hover{
+    box-shadow: 0 0 10px 3px #16817a;
+}
+.item-image{
+    height: 200px;
+    width: 200px;
+    border-radius: 0 0 50px 50px;
+    padding:10px;
+}
+.image-title{
+    text-align: center;
+    padding: 10px;
+    font-weight: bold;
+}
+a{
+text-decoration: none;
+}
+.button {
+    background-color:wheat                        
+    box-shadow: 0 6px 6px rgba(0, 0, 0, 0.6);
+    border:none;
+    color: white;
+    padding: 20px 34px;
+    text-align: center;
+    text-decoration:lavenderblush;
+    display: block;
+    font-size: 30px;
+    cursor: pointer;
+  }
+  .button2{
+      background: white;
+      padding: 10px 15px;
+      color:#8a8a8a;
+      font-weight: bolder;
+      text-transform: uppercase;
+      font-size: 18px;
+      border-radius: 5px;
+      box-shadow: 6px 6px 29px -4px rgba(0,0,0,.7);
+      margin-top: 25px;
+      text-decoration: none;
+      transition: .4s;
+  }
+  .popup{
+      background:transparent;
+      height: 250%;
+      width: 90%;
+      position:absolute;
+      top: 0;
+      display: none;
+      justify-content: center;
+      align-items: center;
+      text-align: center;
+  }
+  .popup-content{
+    height: 250px;
+    width:500px;
+    background:#8a8a8a;
+    border-radius: 20px;
+    position:sticky;
+}
+  input{
+      margin: 20px auto;
+      display: block;
+      width: 50%;
+      padding: 8px;
+      border: 1px solid gray;
+  }
+  .close{
+      position: absolute;
+      top: -15px;
+      right: -15px;
+      background: white;
+      height: 20px;
+      width: 20px;
+      border-radius: 50%;
+      box-shadow: 6px 6px 29px -4px rgba(0,0,0,.7);
+      cursor: pointer;
+  }
+  .quotes{
+      background-image: url(../pictures/thepaintstore.jpg);
+      height: 600px;
+      background-attachment:scroll;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size:cover;
+    margin: 5px 5px 5px 5px;
+  }
+  .title{
+      text-align: right;
+     font-size: 60px;
+      font-family: fantasy;
+     padding: 50px;
+     color:whitesmoke;
+     margin: 20px 20px 20px 20px;
+  }
+  .content{
+      font-size: 65px;
+      color:whitesmoke;
+      font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+      text-align: center;
+      margin: 20px 20px 20px 20px;
+  }
+  .title2{
+    text-align: right;
+    font-size: 60px;
+     font-family: fantasy;
+    padding: 50px;
+    color: ghostwhite;
+    margin: 20px 20px 20px 20px;
+  }
+  .deals-container{
+    margin: 50px 50px 50px 5%;
+    width:90%;
+    text-align:center;
+    color: lightseagreen;
+    background-image: url(../pictures/challenges.jpg);
+
+  }
+  .title3{
+      padding:50px;
+      font-size: 50px;
+      font-weight:bold;
+      letter-spacing: 10px;
+      color:white;
+      background:rgba(0,0,0,0.5);
+  }
+  .deal{
+      padding:30px;
+      font-size:20px;
+      font-weight:bold;
+      color: white;
+      display:inline-block;
+      margin:20px;
+      max-width: 20%;
+      background: linear-gradient(120deg,#16817a 20%,#cee397 50%,#16817a 80%);
+  }
+.coupon-btn{
+     border:1px solid white;
+     color:rgb(2, 59, 16);
+     margin:10px;
+     padding:10px;
+     border-radius: 20px;
+  }
+  .coupon-btn:hover{
+      box-shadow: 0 0 10px 5px white  inset;
+  }
+  /*-----footer-----*/
+  .footer{
+      background: #000;
+      color: #8a8a8a;
+      font-size: 14px;
+      padding-top: 10px;
+      padding-left: 10px;
+  }
+  .footer-container{
+      max-width:1300px;
+      margin: auto;
+      padding-left: 10px;
+      padding-right:15px;
+  }
+  .row{
+      display:flex;
+      align-items: center;
+      flex-wrap: wrap;
+      justify-content: space-around;
+  }
+  .footer p{
+      color: #8a8a8a;
+  }
+  .footer h3{
+      color: #fff;
+      margin-bottom:20px;
+      text-align: center;
+  }
+  .footer-col-1, .footer-col-2, .footer-col-3, .footer-col-4{
+      min-width: 250px;
+      margin-bottom: 20px;
+  }
+  .footer-col-1{
+      flex-basis: 30%;
+      text-align: center;
+  }
+  .footer-col-2{
+      flex: 1;
+      text-align:center;
+  }
+  .footer-col-2 img{
+      width: 100px;
+      margin-bottom: 10px;
+      margin-top: 10px ;
+  }
+  .footer-col-3, .footer-col-4{
+      flex-basis: 20%;
+      text-align:left;
+  }
+  ul {
+      list-style-type: none;
+      text-align: center;
+  }
+  .app-logo{
+      margin-top:20px
+  }
+  .app-logo img{
+      width: 140px;
+  }
